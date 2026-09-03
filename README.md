@@ -2,7 +2,7 @@
 
 **AI-Powered Side-Scan Sonar Analysis for Marine Debris Detection**
 
-Professional MERN-stack prototype for government/marine research agencies to automatically analyze Side-Scan Sonar (SSS) imagery, detect ghost nets, pipes, cylinders, shipwrecks, and unknown artificial anomalies.
+Professional MERN-stack application for government/marine research agencies to automatically analyze Side-Scan Sonar (SSS) imagery, detect ghost nets, pipes, cylinders, shipwrecks, and unknown artificial anomalies.
 
 ![OceanSentinel](https://img.shields.io/badge/Stack-MERN-22d3ee?style=for-the-badge)
 ![AI](https://img.shields.io/badge/AI-Mock%20YOLO%20Engine-06b6d4?style=for-the-badge)
