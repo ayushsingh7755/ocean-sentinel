@@ -189,11 +189,11 @@ export const analyzeMission = async (images, mission) => {
  */
 export const callExternalAIService = async (imageUrl) => {
   // TODO: Implement when Python FastAPI service is ready
-  // const response = await axios.post(process.env.AI_SERVICE_URL, {
-  //   image_url: imageUrl,
-  //   model: 'yolov8-sonar-v1'
-  // });
-  // return transformYOLOResponse(response.data);
+   const response = await axios.post(process.env.AI_SERVICE_URL, {
+     image_url: imageUrl,
+     model: 'yolov8-sonar-v1'
+   });
+   return transformYOLOResponse(response.data);
   throw new Error('External AI service not configured. Using mock engine.');
 };
 
