@@ -7,7 +7,7 @@
  *   const response = await axios.post(process.env.AI_SERVICE_URL, { imageUrl })
  *   return transformYOLOResponse(response.data)
  */
-
+import axios from 'axios';
 import { calculateHazardScore, getHazardLevel, getConfidenceLabel, getAIInterpretation, getRecommendation } from './hazardScore.service.js';
 
 const OBJECT_TYPES = [
