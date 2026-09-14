@@ -65,7 +65,7 @@ const addGeoNoise = (baseLat, baseLng, index) => {
 export const analyzeSonarImage = async (image, missionMetadata = {}) => {
   // Simulate processing time variability
   // In real implementation, this would call Python service
-  const res = await axios.post(process.env.AI_SERVICE_URL, { image_url: imageUrl })
+  const res = await axios.post(process.env.AI_SERVICE_URL, { image_url:image })
   return transformYOLOResponse(res.data)
   const {
     latitude: baseLat = 12.9716,
